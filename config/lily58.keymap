@@ -24,7 +24,7 @@
       bindings = <&kp O_SLASH>;
     };
 
-    combo_aa {
+    combo_aw {
       timeout-ms = <50>;
       key-positions = <&kp A &kp W>;
       bindings = <&kp A_RING>;
