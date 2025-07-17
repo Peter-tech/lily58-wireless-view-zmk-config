@@ -14,19 +14,19 @@
 
     combo_ae {
       timeout-ms = <50>;
-      key-positions = <KEY_A POSITION KEY_E_POSITION>;
+      key-positions = <&kp A &kp E>;
       bindings = <&kp AE>;
     };
 
     combo_oe {
       timeout-ms = <50>;
-      key-positions = <KEY_O_POSITION KEY_E_POSITION>;
+      key-positions = <&kp O &kp E>;
       bindings = <&kp O_SLASH>;
     };
 
     combo_aa {
       timeout-ms = <50>;
-      key-positions = <KEY_A_POSITION KEY_A_POSITION>;
+      key-positions = <&kp A &kp W>;
       bindings = <&kp A_RING>;
     };
   };S
