@@ -29,7 +29,7 @@
       key-positions = <&kp A &kp W>;
       bindings = <&kp A_RING>;
     };
-  };S
+  };
 
     keymap {
         compatible = "zmk,keymap";
