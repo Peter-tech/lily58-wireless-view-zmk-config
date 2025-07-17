@@ -9,16 +9,27 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
+  combos {
+    compatible = "zmk,combos";
 
-        ae {
-            bindings = <&none>;
-            key-positions = <25 15>;
-            timeout-ms = <50>;
-            layers = <0>;
-        };
+    combo_ae {
+      timeout-ms = <50>;
+      key-positions = <KEY_A POSITION KEY_E_POSITION>;
+      bindings = <&kp AE>;
     };
+
+    combo_oe {
+      timeout-ms = <50>;
+      key-positions = <KEY_O_POSITION KEY_E_POSITION>;
+      bindings = <&kp O_SLASH>;
+    };
+
+    combo_aa {
+      timeout-ms = <50>;
+      key-positions = <KEY_A_POSITION KEY_A_POSITION>;
+      bindings = <&kp A_RING>;
+    };
+  };S
 
     keymap {
         compatible = "zmk,keymap";
