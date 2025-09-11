@@ -292,10 +292,10 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &kp HOME      &kp END      &kp PAGE_UP  &kp PAGE_DOWN  &kp PLUS     &kp NON_US_HASH
-&trans      &trans        &trans        &trans        &trans        &trans                             &kp_dk_quote  &kp_dk_LBKT  &kp_dk_RBKT  &kp_dk_slsh    &kp_dk_PIPE  &kp_dk_BLSH
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                             &dk_copy      &kp_dk_lpar  &kp_dk_rpar  &kp EXCL       &kp_dk_at    &kp HASH
-&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &dk_paste    &trans  &dk_paste     &kp_dk_LBRC  &kp_dk_RBRC  &kp DOLLAR     &kp PERCENT  &kp RA(LS(K))
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &kp HOME      &kp END      &kp PAGE_UP  &kp PAGE_DOWN   &kp PLUS     &kp NON_US_HASH
+&trans      &trans        &trans        &trans        &trans        &trans                             &kp_dk_quote  &kp_dk_LBKT  &kp_dk_RBKT  &kp_dk_slsh     &kp_dk_PIPE  &kp_dk_BLSH
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                             &dk_copy      &kp_dk_lpar  &kp_dk_rpar  &kp EXCL        &kp_dk_at    &kp HASH
+&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &dk_paste    &trans  &dk_paste     &kp_dk_LBRC  &kp_dk_RBRC  &kp RA(DOLLAR)  &kp PERCENT  &kp LS(NUMBER_6)
                                         &trans        &trans        &trans        &trans       &trans  &trans        &kp DELETE   &trans
             >;
 
