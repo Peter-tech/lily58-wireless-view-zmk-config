@@ -295,7 +295,7 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &kp HOME      &kp END      &kp PAGE_UP  &kp PAGE_DOWN  &kp PLUS     &kp NON_US_HASH
 &trans      &trans        &trans        &trans        &trans        &trans                             &kp_dk_quote  &kp_dk_LBKT  &kp_dk_RBKT  &kp_dk_slsh    &kp_dk_PIPE  &kp_dk_BLSH
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                             &dk_copy      &kp_dk_lpar  &kp_dk_rpar  &kp EXCL       &kp_dk_at    &kp HASH
-&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &dk_paste    &trans  &dk_paste     &kp_dk_LBRC  &kp_dk_RBRC  &kp DOLLAR     &kp PERCENT  &kp AMPS
+&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &dk_paste    &trans  &dk_paste     &kp_dk_LBRC  &kp_dk_RBRC  &kp DOLLAR     &kp PERCENT  &kp RA(LS(K))
                                         &trans        &trans        &trans        &trans       &trans  &trans        &kp DELETE   &trans
             >;
 
@@ -315,7 +315,7 @@
 &trans  &trans           &trans           &trans           &trans           &trans                          &kp C_VOLUME_UP  &kp C_VOLUME_DOWN     &kp C_PREV                &kp C_PLAY_PAUSE  &kp C_NEXT  &trans
 &trans  &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS                     &trans           &trans                &trans                    &trans            &trans      &trans
 &trans  &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS                    &trans           &kp LEFT              &kp DOWN                  &kp UP            &kp RIGHT   &trans
-&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp KP_EQUAL  &trans    &trans  &trans           &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &trans            &trans      &trans
+&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp LS(N0)    &trans    &trans  &trans           &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &trans            &trans      &trans
                                           &trans           &trans           &trans        &trans    &trans  &trans           &trans                &trans
             >;
 
