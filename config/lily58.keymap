@@ -9,6 +9,12 @@
 #include <dt-bindings/zmk/keys.h>
 #include "aliases.h" //file contains aliases for most symbols for the danish language
 
+#define DEFAULT 0
+#define LOWER   1
+#define RAISE   2
+#define GAME    3
+
+
 / {
     macros {
         kp_dk_LBKT: kp_dk_LBKT {
